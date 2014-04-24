@@ -41,5 +41,55 @@
             "   Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
             "   Brown on both sides and serve hot."
         ]
-    }
+    },
+    "cat" : {
+    	
+    	"ingredients": [
+    		"marmalade",
+    		"parsley",
+    		"butter",
+    		"ginger cat"
+    	],
+    	"directions" : [
+    		"1. In a large bowl, mix the marmalde, parsley, and butter together.",
+    		"2. Blend in the cat using a grinder.",
+    		"3. Serve hot!."
+    	
+    	]
+    },
+    "beef curry": {
+    	"ingredients" : [
+    		"coconut milk",
+    		"red curry paste",
+    		"chicken broth",
+    		"fish sauce",
+    		"brown sugar",
+    		"red bell pepper",
+    		"asparagus",
+    		"sirloin steak",
+    		"rice noodles"
+    	],
+    	"directions" : [
+    		"1. In a large wok or skillet, heat 1/2 cup coconut milk over medium-high, stirring, until shiny and thick, 2 minutes.",
+    		"2. Add curry paste and cook, stirring, until fragrant, 1 minute.",
+    		"3. Add remaining coconut milk, broth, fish sauce, and brown sugar and bring to a simmer. ",
+    		"4. Add bell pepper and cook until softened, 2 minutes. Add asparagus and cook until crisp-tender, 3 minutes. ",
+    		"5.Add steak and cook, stirring, until just cooked through, 2 minutes. Serve over noodles with lime wedges and cilantro."
+    	]  
+    },
+    "asparagus and lemon risotto ":{
+    	"ingredients" : [
+    		"vegetable broth",
+    		"olive oil",
+    		"onion",
+    		"rice",
+    		"white wine",
+    		"asparagus",
+    		"peas",
+    		"lemon juice",
+    		"parsley",
+    		"
+    
+    
 }
+
