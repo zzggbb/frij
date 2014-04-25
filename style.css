@@ -1,1 +1,63 @@
+* {
+    font-family:"Courier New";
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+#title {
+    font-size:300%;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+}
+#desc {
+    font-size: 200%;
+    padding:10px 60px;
+}
+#input {
+    font-size:200%;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    box-shadow:0px 10px 2px -2px #666, inset 0px -10px rgba(0,0,0,0.5);
+}
+#instructions {
+}
+#ingredients {
+    background-color:#666;
+    color:#FFF;
+    border-radius:10px;
+    border: 0px;
+    margin: 5px 5px 5px 5px;
+}
+#chrome {
+    background: radial-gradient(
+        ellipse,
+        white, #888
+    );
+    height: 5px;
+    width:50%;
+}
+.section {
+    background-color:#69C;
+    color:#FFF;
+    padding:20px;
+    margin-top:0px;
+    margin-bottom:0px;
+    width:50%;
+    height:20%;
+}
+.center {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+input[type='text'] {
+    height:30px;
+    width:100%;
+}
+input {
+    background-color:#666;
+    border: 0px;
+    color:#FFF;
+    border-radius:10px;
+}
 
