@@ -4,12 +4,25 @@
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
 }
-body {
+body:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
     background-color: #ccc;
     background-image: 
         linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999), 
         linear-gradient(-45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999);
     background-size:60px 60px;
+    width: 110%;
+    height:110%;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
 }
 /*  Three Main Views    */
 #title {
