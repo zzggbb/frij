@@ -34,7 +34,7 @@
         white, #888
     );
     height: 5px;
-    width:50%;
+    width:80%;
 }
 .section {
     background-color:#69C;
@@ -42,8 +42,8 @@
     padding:20px;
     margin-top:0px;
     margin-bottom:0px;
-    width:50%;
-    height:20%;
+    width:80%;
+    height:30%;
 }
 .center {
     text-align:center;
