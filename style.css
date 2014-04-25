@@ -3,37 +3,17 @@
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
-}
-body:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;
-    background-color: #ccc;
-    background-image: 
-        linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999), 
-        linear-gradient(-45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999);
-    background-size:60px 60px;
-    width: 110%;
-    height:110%;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
+    font-weight: bold;
 }
 /*  Three Main Views    */
 #title {
-    font-size:200%;
+    font-size:1170%;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
 }
 #desc {
-    font-size: 200%;
+    font-size: 300%;
 }
-
 #input {
     font-size:200%;
     border-bottom-left-radius:25px;
@@ -47,12 +27,16 @@ body:before {
     border-radius:25px;
     box-shadow: inset 10px 10px 0px #3D5B7A;
     padding:20px;
+    margin-top: 15px;
 }
 #ingredients {
     background-color:#666;
     color:#FFF;
     border-radius:10px;
     border: 0px;
+}
+#instructions {
+    margin-bottom: 94px;
 }
 #chrome {
     background: radial-gradient(
@@ -62,9 +46,28 @@ body:before {
     height: 5px;
     width:80%;
 }
+#handle-base {
+    display: block;
+    background: radial-gradient(
+        ellipse,
+        white, #888
+    );
+    height: 20px;
+    width: 60px;
+    border-radius: 15px;
+}
+#handle-lever {
+    display: block;
+    background: radial-gradient(
+        ellipse,
+        white, #888
+    );
+    height: 10px;
+    width: 120px;
+    border-radius: 10px;
+}
 /*  Attribute classes   */
 .section {
-    vertical-align:middle;
     background-color:#69C;
     color:#FFF;
     padding:20px;
@@ -87,4 +90,25 @@ input {
     border-radius:10px;
     font-size:100%;
 }
-
+/*  Misc    */
+/* blurry background */
+body:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-color: #ccc;
+    background-image: 
+        linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999), 
+        linear-gradient(-45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999);
+    background-size:60px 60px;
+    width: 110%;
+    height:110%;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
