@@ -5,7 +5,10 @@
     box-sizing: border-box;
     font-weight: bold;
 }
-/*  Three Main Views    */
+/*  Main Views    */
+#fridge {
+    display: fixed;
+}
 #title {
     font-size:1170%;
     border-top-left-radius:25px;
@@ -21,7 +24,7 @@
     box-shadow:0px 10px 2px -2px #666, inset 0px -10px rgba(0,0,0,0.5);
 }
 /*  Sub Views   */
-#inner {
+#inlaid{
     width:90%;
     height:80%;
     border-radius:25px;
