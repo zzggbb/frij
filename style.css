@@ -4,29 +4,42 @@
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
 }
+body {
+    background-color: #ccc;
+    background-image: 
+        linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999), 
+        linear-gradient(-45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999);
+    background-size:60px 60px;
+}
+/*  Three Main Views    */
 #title {
-    font-size:300%;
+    font-size:200%;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
 }
 #desc {
     font-size: 200%;
-    padding:10px 60px;
 }
+
 #input {
     font-size:200%;
     border-bottom-left-radius:25px;
     border-bottom-right-radius:25px;
     box-shadow:0px 10px 2px -2px #666, inset 0px -10px rgba(0,0,0,0.5);
 }
-#instructions {
+/*  Sub Views   */
+#inner {
+    width:90%;
+    height:80%;
+    border-radius:25px;
+    box-shadow: inset 10px 10px 0px #3D5B7A;
+    padding:20px;
 }
 #ingredients {
     background-color:#666;
     color:#FFF;
     border-radius:10px;
     border: 0px;
-    margin: 5px 5px 5px 5px;
 }
 #chrome {
     background: radial-gradient(
@@ -36,22 +49,22 @@
     height: 5px;
     width:80%;
 }
+/*  Attribute classes   */
 .section {
+    vertical-align:middle;
     background-color:#69C;
     color:#FFF;
     padding:20px;
-    margin-top:0px;
-    margin-bottom:0px;
     width:80%;
     height:30%;
 }
 .center {
     text-align:center;
-    margin-left:auto;
-    margin-right:auto;
+    margin: 0 auto;
 }
+/*  Input   */
 input[type='text'] {
-    height:30px;
+    height:25%;
     width:100%;
 }
 input {
@@ -59,5 +72,6 @@ input {
     border: 0px;
     color:#FFF;
     border-radius:10px;
+    font-size:100%;
 }
 
