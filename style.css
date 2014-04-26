@@ -7,7 +7,7 @@
 }
 /*  Main Views    */
 #fridge {
-    display: fixed;
+    position: fixed;
 }
 #title {
     font-size:1170%;
@@ -76,7 +76,7 @@
     color:#FFF;
     padding:20px;
     width:80%;
-    height:30%;
+    height:50%;
 }
 .center {
     text-align:center;
@@ -99,6 +99,7 @@ input {
 body:before {
     content: "";
     position: fixed;
+    top:0;
     left: 0;
     right: 0;
     z-index: -1;
