@@ -1,130 +1,68 @@
 * {
     font-family:"Courier New";
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;-webkit-box-sizing: border-box; 
     box-sizing: border-box;
     font-weight: bold;
-}
-/*  Main Views    */
-#fridge {
-    position:absolute; 
-}
-#title {
+} #chrome-inlaid, #inlaid {
+    box-shadow: inset 10px 10px 0px #3D5B7A;
+} #chrome-inlaid,#inlaid,#ingredients,#chrome,#handle-base,#handle-lever,input {
+    border-radius:25px;
+} #chrome-inlaid,#inlaid,.section {
+    padding:20px;
+} #fridge,#handle-base,#handle-lever {
+    position:absolute;
+} #ingredients,.section,input {
+    color:#FFF;
+} #chrome,#handle-lever {
+    background: radial-gradient(ellipse,#FFF,#888); 
+} #title {
     font-size:1170%;
     border-top-left-radius:25px;
     border-top-right-radius:25px;
-}
-#desc {
+} #desc,#input {
     font-size: 300%;
-}
-#input {
-    font-size:300%;
+} #input {
     border-bottom-left-radius:25px;
     border-bottom-right-radius:25px;
     box-shadow:0px 10px 2px -2px #666, inset 0px -10px rgba(0,0,0,0.5);
-}
-/*  Sub Views   */
-#inlaid{
-    width:90%;
-    height:80%;
+} #inlaid{
+        width:90%; height:80%;
     min-height:200px;
-    border-radius:25px;
-    box-shadow: inset 10px 10px 0px #3D5B7A;
-    padding:20px;
     margin-top: 15px;
-}
-#chrome-inlaid {
-    width:20%;
-    height:10px;
-    border-radius:25px;
-    box-shadow: inset 10px 10px 0px #3D5B7A;
-    padding:20px;
+} #chrome-inlaid {
+        width:20%; height:11px;
     margin-left:31px;
-}
-#ingredients {
+} #ingredients {
     background-color:#666;
-    color:#FFF;
-    border-radius:10px;
-    border: 0px;
-}
-#instructions {
-    margin-bottom: 94px;
-}
-#chrome {
-    background: radial-gradient(
-        ellipse,
-        white, #888
-    );
-    height: 12px;
-    width:82%;
-    border-radius: 10px;
-}
-#handle-base {
+} #chrome {
+        width:82%; height: 11px;
+} #handle-base {
+        width:60px; height:20px;
     background-color:#3D5B7A;
-    height: 20px;
-    width: 60px;
-    border-radius: 15px;
-    position:absolute;
-    margin-left:0px;
-}
-#handle-lever {
-    background: radial-gradient(
-        ellipse,
-        white, #888
-    );
-    height: 10px;
-    width: 120px;
-    border-radius: 10px;
-    position:absolute;
-    margin-top:5px;
-    margin-left:5px;
-}
-/*  Attribute classes   */
-.section {
+} #handle-lever {
+        width:120px; height:11px;
+    margin:5px 0px 0px 5px;
+} .section {
+        width:80%; height:30%;
     background-color:#69C;
-    color:#FFF;
-    padding:20px;
-    width:80%;
-    height:30%;
     min-height:295px;
-}
-.center {
+} .center {
     text-align:center;
     margin: 0 auto;
-}
-/*  Input   */
-input[type='text'] {
-    height:160px;
+} input[type='text'] {
+    width:100%; height:160px;
     overflow:scroll;
-    width:100%;
-}
-input {
+} input {
     background-color:#666;
     border: 0px;
-    color:#FFF;
-    border-radius:10px;
     font-size:100%;
-}
-/*  Misc    */
-/* blurry background */
-body:before {
-    content: "";
-    position: fixed;
-    top:0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;
-    background-color: #ccc;
-    background-image: 
-        linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999), 
-        linear-gradient(-45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999);
+} body:before {
+    width: 110%;height:110%;
+    content: "";position: fixed;top:0;left: 0;right: 0;z-index: -1;display: block;
+    background-color: #ccc;background-image: 
+    linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999), 
+    linear-gradient(-45deg, #999 25%, transparent 25%, transparent 75%, #999 75%, #999);
     background-size:60px 60px;
-    width: 110%;
-    height:110%;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
+    -webkit-filter: blur(3px);-moz-filter: blur(3px);-o-filter: blur(3px);-ms-filter: blur(3px);
     filter: blur(3px);
-}
+} 
