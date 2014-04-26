@@ -32,6 +32,14 @@
     padding:20px;
     margin-top: 15px;
 }
+#chrome-inlaid {
+    width:20%;
+    height:10px;
+    border-radius:25px;
+    box-shadow: inset 10px 10px 0px #3D5B7A;
+    padding:20px;
+    margin-left:31px;
+}
 #ingredients {
     background-color:#666;
     color:#FFF;
@@ -51,17 +59,14 @@
     border-radius: 10px;
 }
 #handle-base {
-    display: block;
-    background: radial-gradient(
-        ellipse,
-        white, #888
-    );
+    background-color:#3D5B7A;
     height: 20px;
     width: 60px;
     border-radius: 15px;
+    position:absolute;
+    margin-left:0px;
 }
 #handle-lever {
-    display: block;
     background: radial-gradient(
         ellipse,
         white, #888
@@ -69,6 +74,9 @@
     height: 10px;
     width: 120px;
     border-radius: 10px;
+    position:absolute;
+    margin-top:5px;
+    margin-left:5px;
 }
 /*  Attribute classes   */
 .section {
@@ -76,7 +84,7 @@
     color:#FFF;
     padding:20px;
     width:80%;
-    height:50%;
+    height:295px;
 }
 .center {
     text-align:center;
@@ -84,8 +92,10 @@
 }
 /*  Input   */
 input[type='text'] {
-    height:25%;
+    height:auto;
+    overflow:scroll;
     width:100%;
+    max-height:200px;
 }
 input {
     background-color:#666;
